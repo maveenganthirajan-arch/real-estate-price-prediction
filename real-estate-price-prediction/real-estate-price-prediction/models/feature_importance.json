@@ -1,0 +1,147 @@
+{
+  "method": "shap",
+  "note": null,
+  "unit": "mean |SHAP| (log-price)",
+  "features": [
+    {
+      "feature": "living_area",
+      "importance": 0.3078469392609815,
+      "share_pct": 33.35940939311159,
+      "relative_pct": 100.0
+    },
+    {
+      "feature": "dist_downtown_km",
+      "importance": 0.13518941136551038,
+      "share_pct": 14.649614286184459,
+      "relative_pct": 43.91448935306831
+    },
+    {
+      "feature": "lot_size",
+      "importance": 0.08277369656711575,
+      "share_pct": 8.969657575262408,
+      "relative_pct": 26.887938780818345
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.07566129687838256,
+      "share_pct": 8.198932183113083,
+      "relative_pct": 24.577569963831817
+    },
+    {
+      "feature": "sale_year",
+      "importance": 0.07551857670363198,
+      "share_pct": 8.183466508029255,
+      "relative_pct": 24.5312092057573
+    },
+    {
+      "feature": "property_age",
+      "importance": 0.07237203608658051,
+      "share_pct": 7.842495969656331,
+      "relative_pct": 23.509097170274647
+    },
+    {
+      "feature": "neighborhood",
+      "importance": 0.05627044864613278,
+      "share_pct": 6.0976696329243865,
+      "relative_pct": 18.278709796893164
+    },
+    {
+      "feature": "dist_transit_km",
+      "importance": 0.04972923320303228,
+      "share_pct": 5.388839834522715,
+      "relative_pct": 16.153882615306316
+    },
+    {
+      "feature": "property_type",
+      "importance": 0.03023834520342961,
+      "share_pct": 3.2767366127888407,
+      "relative_pct": 9.822525855225292
+    },
+    {
+      "feature": "bathrooms",
+      "importance": 0.011878431538024486,
+      "share_pct": 1.2871898664195398,
+      "relative_pct": 3.8585511249648583
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.010770848523963308,
+      "share_pct": 1.167168159230826,
+      "relative_pct": 3.4987674556127946
+    },
+    {
+      "feature": "dist_park_km",
+      "importance": 0.004388709315958999,
+      "share_pct": 0.47557643785544446,
+      "relative_pct": 1.4256140816259373
+    },
+    {
+      "feature": "bedrooms",
+      "importance": 0.004235517829371265,
+      "share_pct": 0.4589760534927233,
+      "relative_pct": 1.375851856620392
+    },
+    {
+      "feature": "dist_school_km",
+      "importance": 0.003580145873252844,
+      "share_pct": 0.38795757449987467,
+      "relative_pct": 1.1629629587506556
+    },
+    {
+      "feature": "area_per_bedroom",
+      "importance": 0.0023652763531069212,
+      "share_pct": 0.25630991290853017,
+      "relative_pct": 0.7683286891807378
+    }
+  ],
+  "groups": [
+    {
+      "group": "Location",
+      "importance": 0.33559009380623317,
+      "share_pct": 36.36575810833079,
+      "relative_pct": 100.0
+    },
+    {
+      "group": "Living area",
+      "importance": 0.3102122156140884,
+      "share_pct": 33.61571930602012,
+      "relative_pct": 92.43783453071838
+    },
+    {
+      "group": "Lot size",
+      "importance": 0.08277369656711575,
+      "share_pct": 8.969657575262408,
+      "relative_pct": 24.66511917211375
+    },
+    {
+      "group": "Sale date",
+      "importance": 0.07551857670363198,
+      "share_pct": 8.183466508029255,
+      "relative_pct": 22.503219879677307
+    },
+    {
+      "group": "Property age",
+      "importance": 0.07237203608658051,
+      "share_pct": 7.842495969656331,
+      "relative_pct": 21.565605607049743
+    },
+    {
+      "group": "Property type",
+      "importance": 0.03023834520342961,
+      "share_pct": 3.2767366127888407,
+      "relative_pct": 9.01049994070712
+    },
+    {
+      "group": "Bathrooms",
+      "importance": 0.011878431538024486,
+      "share_pct": 1.2871898664195398,
+      "relative_pct": 3.5395656061537353
+    },
+    {
+      "group": "Bedrooms",
+      "importance": 0.004235517829371265,
+      "share_pct": 0.4589760534927233,
+      "relative_pct": 1.2621105055075958
+    }
+  ]
+}

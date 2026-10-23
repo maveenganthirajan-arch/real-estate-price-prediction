@@ -1,0 +1,20 @@
+{
+  "rows_raw": 8080,
+  "duplicates_removed": 80,
+  "invalid_values_nulled": {
+    "bedrooms": 16,
+    "bathrooms": 0,
+    "living_area": 16,
+    "year_built": 16,
+    "lot_size": 0
+  },
+  "dropped_missing_critical": 78,
+  "price_outliers_removed": 31,
+  "rows_clean": 7891,
+  "missing_after_cleaning": {
+    "bedrooms": 16,
+    "bathrooms": 118,
+    "lot_size": 80,
+    "year_built": 174
+  }
+}
